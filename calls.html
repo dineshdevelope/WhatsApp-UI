@@ -12,8 +12,11 @@
     <link rel="stylesheet" href="./dist/output.css" />
   </head>
   <body class="bg-green-300 p-10">
-    <h1 class="font-black text-center mb-5">WhatsApp UI-(screen-1)  <a href="https://github.com/dineshdevelope/WhatsApp-UI" target="_blank"
-      > @Dinesh</h1></a>
+    <a href="https://github.com/dineshdevelope/WhatsApp-UI" target="_blank"
+      ><h1 class="font-black text-center mb-5">
+        WhatsApp UI-(screen-3) @Dinesh
+      </h1></a
+    >
     >
     <section class="bg-white max-w-md mx-auto">
       <div
@@ -64,15 +67,13 @@
 
         <li class="flex items-center flex-1 justify-between">
           <div
-            class="uppercase font-medium text-sm flex items-center space-x-2 relative"
+            class="uppercase font-medium text-sm flex items-center space-x-2"
           >
-          <a href="index.html">
-            <span class="cursor-pointer">Chats</span></a>
+            <a href="index.html"> <span class="cursor-pointer">Chats</span></a>
             <span
               class="bg-white text-emerald-700 rounded-full w-5 h-5 p-0.5 text-xs flex items-center justify-center"
               >13</span
             >
-            <div class="absolute right-1 top-8 w-full h-1 bg-white"></div>
           </div>
           <div
             class="uppercase font-medium text-sm flex items-center space-x-2"
@@ -82,14 +83,81 @@
             >
           </div>
           <div
-            class="uppercase font-medium text-sm flex items-center space-x-2"
+            class="uppercase font-medium text-sm flex items-center space-x-2 relative"
           >
             <span class="cursor-pointer">Calls</span>
+            <div class="absolute right-1 top-8 w-full h-1 bg-white"></div>
           </div>
         </li>
       </ul>
-      <!-- Chat Screen-1 -->
-    </div>
+      <!-- Call Screen-1 -->
+      <div class="bg-white">
+        <div class="px-3 py-2 flex items-center justify-between space-x-4">
+          <div class="bg-green-700 p-3 rounded-full">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="20"
+              height="20"
+              viewBox="0 0 256 256"
+            >
+              <path
+                fill="currentColor"
+                d="m87.5 151.52l64-64a12 12 0 0 1 17 17l-64 64a12 12 0 0 1-17-17Zm131-114a60.08 60.08 0 0 0-84.87 0l-30.12 30.09a12 12 0 0 0 17 17l30.07-30.06a36 36 0 0 1 50.93 50.92l-30.11 30.05a12 12 0 1 0 17 17l30.08-30.06a60.09 60.09 0 0 0-.03-84.91ZM135.52 171.4l-30.07 30.08a36 36 0 0 1-50.92-50.93l30.06-30.07a12 12 0 0 0-17-17l-30.04 30.1a60 60 0 0 0 84.88 84.87l30.06-30.07a12 12 0 0 0-17-17Z"
+              ></path>
+            </svg>
+          </div>
+          <div class="flex items-center justify-between flex-1">
+            <div>
+              <h4 class="font-semibold">Create call Link</h4>
+              <small class="text-gray-800"
+                >Share a Link For Your Whats App Call</small
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="p-2 text-sm px-3">
+        <h4 class="text-gray-600 font-medium">Recent</h4>
+      </div>
+      <div
+        class="flex items-center space-x-4 px-3 py-2 cursor-pointer hover:bg-green-100"
+      >
+        <img
+          src="https://ui-avatars.com/api/?name=Deepak Kumar&background=random&color=fff"
+          alt="Deepak Kumar"
+          class="rounded-full"
+        />
+        <div>
+          <h4 class="font-semibold">Deepak Kumar</h4>
+          <small class="text-gray-500">Today, 09:15 PM</small>
+        </div>
+      </div>
+      <div
+        class="flex items-center space-x-4 px-3 py-2 cursor-pointer hover:bg-green-100"
+      >
+        <img
+          src="https://ui-avatars.com/api/?name=Rajesh S&background=random&color=fff"
+          alt="Rajesh S"
+          class="rounded-full"
+        />
+        <div>
+          <h4 class="font-semibold">Rajesh S</h4>
+          <small class="text-gray-500">Today, 08:15 PM</small>
+        </div>
+      </div>
+      <div
+        class="flex items-center space-x-4 px-3 py-2 cursor-pointer hover:bg-green-100"
+      >
+        <img
+          src="https://ui-avatars.com/api/?name=Kumar S&background=random&color=fff"
+          alt="Kumar S"
+          class="rounded-full"
+        />
+        <div>
+          <h4 class="font-semibold">Kumar S</h4>
+          <small class="text-gray-500">Today, 02:15 PM</small>
+        </div>
+      </div>
     </section>
   </body>
 </html>
