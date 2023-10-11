@@ -17,9 +17,21 @@ I create Whats_App UI using HTML and Tailwind CSS!
 
 ## Demo
 
-Live preview
+[ Live preview](https://dineshdevelope.github.io/WhatsApp-UI/)
 
-https://dineshdevelope.github.io/WhatsApp-UI/
+### Home page
+
+![Home page](./assets/img/chat-screen.png)
+
+### status page
+
+![status page](./assets/img/status-screen.png)
+
+### calls page
+
+![calls page](./assets/img/calls-screen.png)
+
+[ Live preview](https://dineshdevelope.github.io/WhatsApp-UI/)
 
 ## Internship
 
@@ -27,8 +39,12 @@ This internship is provided by [CyberDude Networks Pvt. Ltd.](https://youtube.co
 
 ## Technologies Used
 
-1.Tailwind CSS
-2.HTML
+<ol>
+    <li> Tailwind CSS
+    </li>
+    <li> HTML
+    </li>
+</ol>
 
 ## Acknowledgments
 
